@@ -10,5 +10,8 @@
   <%= @recipe.instructions %>
 </p>
 
+<%= image_tag @recipe.preview.url %> <br>
+<%= image_tag @recipe.preview.url(:medium) %>
+<%= image_tag @recipe.preview.url(:thumb) %> <br>
 <%= link_to 'Edit', edit_recipe_path(@recipe) %> |
 <%= link_to 'Back', recipes_path %>

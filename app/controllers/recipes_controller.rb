@@ -21,6 +21,14 @@ class RecipesController < ApplicationController
   def edit
   end
 
+  def preview
+  end
+
+  def url
+  end
+
+  def avatar
+  end
   # POST /recipes
   # POST /recipes.json
   def create
@@ -69,6 +77,6 @@ class RecipesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def recipe_params
-      params.require(:recipe).permit(:title, :instructions)
+      params.require(:recipe).permit(:title, :instructions, :preview)
     end
 end
