@@ -1,6 +1,6 @@
 == README
 
-=== Simple cookbook. 
+===Simple cookbook. 
 Create, add images, update and delete recipes.
 
 1. clone this repo `git clone`
