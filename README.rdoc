@@ -2,7 +2,7 @@
 
 Simple cookbook. Create, add images, update and delete recipes.
 
-* `git clone` this repo
+`git clone` this repo
 * `mkdir my_cookbook`
 * change directory `cd my_cookbook`
 * load the schema with `rake db:schema:load`
